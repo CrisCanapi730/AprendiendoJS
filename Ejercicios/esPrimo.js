@@ -4,5 +4,5 @@ export function esPrimo(num){
     for(let i = 1; i<=num; i++){
         if(num%i===0) contador ++;
     }
-    return contador <=2 ? "Es primo" : "No es primo";
+    return contador <=2 ? "Es numero primo" : "No es primo";
 }
